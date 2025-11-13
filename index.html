@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viradouro Play - Sua TV Online</title>
+  <meta name="description" content="Assista canais, filmes e séries online com estabilidade, qualidade de imagem e suporte dedicado.">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <span class="logo-icon">VP</span>
+        <span class="logo-text">Viradouro<span>Play</span></span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#canais">Canais</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato" class="btn btn-small">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+   <!-- CARROSSEL (HERO) -->
+<section class="carousel" id="inicio">
+  <div class="carousel-wrapper">
+    <div class="carousel-item active">
+      <img src="Banner1.png" alt="Banner 1">
+    </div>
+    <div class="carousel-item">
+      <img src="Banner2.png" alt="Banner 2">
+    </div>
+    <div class="carousel-item">
+      <img src="banner3.jpg" alt="Banner 3">
+    </div>
+ 
+    <!-- Controles -->
+    <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+    <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+
+    <!-- Indicadores -->
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+</section>
+
+  <section class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>TV Online com qualidade, estabilidade e suporte de verdade.</h1>
+        <p>Assista aos seus conteúdos favoritos com acesso rápido, interface simples e atendimento direto no WhatsApp. Sem complicação.</p>
+        <div class="hero-actions">
+          <!-- Substitua SEUNUMERO pelo seu número com DDD, ex: 5599999999999 -->
+          <a href="https://wa.me/5517992691217?text=Olá,%20quero%20testar%20o%20IPTV%20Premium" class="btn">
+            Testar agora pelo WhatsApp
+          </a>
+          <a href="#planos" class="btn btn-outline">
+            Ver planos
+          </a>
+        </div>
+
+        <div class="hero-infos">
+          <span>✔ Suporte dedicado</span>
+          <span>✔ Qualidade HD/Full HD*</span>
+          <span>✔ Multi-dispositivos</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <h2>Experimente agora</h2>
+          <p>Comece em poucos minutos</p>
+        </div>
+        <ul class="hero-card-list">
+          <li>📺 Canais ao vivo selecionados</li>
+          <li>🎬 Filmes e séries on-demand*</li>
+          <li>📱 Funciona na TV Box, Smart TV, celular e PC</li>
+          <li>💬 Suporte via WhatsApp</li>
+        </ul>
+        <a href="https://wa.me/5517992691217?text=Quero%20saber%20mais%20sobre%20os%20planos%20de%20IPTV" class="btn btn-full">
+          Falar com atendimento
+        </a>
+        <p class="hero-note">*Conteúdos e qualidade de imagem podem variar conforme dispositivo e conexão.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section class="section" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <h2>Por que escolher o nosso IPTV?</h2>
+        <p>Focado em qualidade, estabilidade e suporte próximo ao cliente.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Estabilidade</h3>
+          <p>Servidores otimizados para reduzir travamentos e garantir a melhor experiência possível.</p>
+        </div>
+        <div class="card">
+          <h3>Qualidade de imagem</h3>
+          <p>Conteúdos em alta qualidade*, dependendo da sua internet e dispositivo.</p>
+        </div>
+        <div class="card">
+          <h3>Atendimento humano</h3>
+          <p>Suporte direto pelo WhatsApp para ajudar com instalação, configurações e dúvidas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="section section-alt" id="planos">
+    <div class="container">
+      <div class="section-header">
+        <h2>Planos</h2>
+        <p>Escolha o plano ideal para o seu uso. Valores podem ser ajustados conforme sua estratégia.</p>
+      </div>
+
+      <div class="plans">
+        <div class="plan-card">
+          <div class="plan-label">Mensal</div>
+          <h3>Plano Básico</h3>
+          <p class="plan-price"><span>R$</span>24,90<span>/mês</span></p>
+          <ul class="plan-list">
+            <li>Acesso em 1 dispositivo</li>
+            <li>Suporte comercial</li>
+            <li>Atualizações periódicas</li>
+          </ul>
+          <a href="https://wa.me/5517992691217?text=Tenho%20interesse%20no%20Plano%20Básico" class="btn btn-full">Quero esse plano</a>
+        </div>
+
+        <div class="plan-card plan-featured">
+          <div class="plan-label">Recomendado</div>
+          <h3>Plano Premium</h3>
+          <p class="plan-price"><span>R$</span>29,90<span>/mês</span></p>
+          <ul class="plan-list">
+            <li>Acesso em até 2 dispositivos*</li>
+            <li>Suporte prioritário</li>
+            <li>Indicado para uso diário</li>
+          </ul>
+          <a href="https://wa.me/5517992691217?text=Tenho%20interesse%20no%20Plano%20Premium" class="btn btn-full">Quero esse plano</a>
+        </div>
+
+        <div class="plan-card">
+          <div class="plan-label">Trimestral</div>
+          <h3>Plano Economia</h3>
+          <p class="plan-price"><span>R$</span>79,90<span>/3 meses</span></p>
+          <ul class="plan-list">
+            <li>Melhor custo-benefício</li>
+            <li>Renovação trimestral</li>
+            <li>Suporte completo</li>
+          </ul>
+          <a href="https://wa.me/5517992691217?text=Tenho%20interesse%20no%20Plano%20Economia" class="btn btn-full">Quero esse plano</a>
+        </div>
+      </div>
+
+      <p class="section-note">*Consulte as condições de uso simultâneo para cada plano.</p>
+    </div>
+  </section>
+
+  <!-- CANAIS (DESTAQUES) -->
+  <section class="section" id="canais">
+    <div class="container">
+      <div class="section-header">
+        <h2>Destaques da programação</h2>
+        <p>Seleção de conteúdos para diferentes perfis de usuário.</p>
+      </div>
+
+      <div class="channels-grid">
+        <div class="channel-tag">Esportes</div>
+        <div class="channel-tag">Filmes</div>
+        <div class="channel-tag">Séries</div>
+        <div class="channel-tag">Infantil</div>
+        <div class="channel-tag">Variedades</div>
+        <div class="channel-tag">Notícias</div>
+        <div class="channel-tag">Documentários</div>
+        <div class="channel-tag">Música</div>
+      </div>
+
+      <p class="section-note">
+        A disponibilidade de conteúdos pode variar ao longo do tempo.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Perguntas frequentes</h2>
+        <p>Tire suas dúvidas rapidamente.</p>
+      </div>
+
+      <div class="faq">
+        <div class="faq-item">
+          <button class="faq-question">
+            O que é IPTV?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>IPTV é uma forma de transmissão de conteúdo pela internet. Você precisa de uma conexão estável para ter uma boa experiência.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Quais dispositivos posso usar?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Você pode assistir em Smart TV compatível, TV Box, celular, tablet e computador, de acordo com o aplicativo utilizado.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Como funciona o suporte?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>O suporte é feito principalmente pelo WhatsApp, auxiliando na instalação e solução de dúvidas dentro do horário comercial.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Preciso ter internet rápida?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Recomendamos internet estável e de boa velocidade para evitar travamentos e manter a qualidade de imagem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section" id="contato">
+    <div class="container contact-grid">
+      <div>
+        <div class="section-header left">
+          <h2>Fale com a gente</h2>
+          <p>Envie sua mensagem ou chame direto no WhatsApp para contratar ou tirar dúvidas.</p>
+        </div>
+        <ul class="contact-list">
+          <li>💬 Atendimento via WhatsApp</li>
+          <li>📅 Suporte em horário comercial</li>
+          <li>📍 Atendimento online para todo o Brasil</li>
+        </ul>
+        <a href="https://wa.me/5517992691217" class="btn">Chamar no WhatsApp</a>
+      </div>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Obrigado pelo contato! Responderemos em breve.');">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="form-group">
+          <label for="whats">WhatsApp</label>
+          <input type="tel" id="whats" placeholder="(DDD) 9 9999-9999" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="4" placeholder="Conte como posso te ajudar" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-full">Enviar mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> IPTV Premium. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
